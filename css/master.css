@@ -1,4 +1,38 @@
 body {
   font-family: sans-serif;
+  background-color: #d5dabd;
   color: #444;
+}
+
+img {
+  height: 280px;
+  margin-right: 50px;
+}
+
+.jumbotron {
+  background-color: #cdd4d6;
+  box-shadow: 0 0 5px 0;
+  padding-left: 20px;
+}
+
+.book-title {
+  display: block;
+  background-color: #8ea0a4;
+  color: #fff;
+  width: 350px;
+  padding: 10px;
+  margin: 5px;
+  border-left: 10px solid #4a6279;
+}
+
+.book-title:hover {
+  background-color: #586482;
+  color: #bef5f3;
+  border-left: 10px solid #9abdde;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 60px;
+  padding-left: 20px;
 }
